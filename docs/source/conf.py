@@ -122,7 +122,7 @@ if tags.has('enterprise'):
     product_replace = "\n.. |st2| replace:: EWC\n.. |fullname| replace:: Extreme Workflow Composer"
 else:
     print("Building StackStorm docs")
-    product_replace = "\n.. |st2| replace:: StackStorm\n.. |fullname| replace:: StackStorm"
+    product_replace = "\n.. |st2| replace:: StackStorm\n.. |fullname| replace:: Stackstorm test"
 
 rst_epilog = """
 %s
